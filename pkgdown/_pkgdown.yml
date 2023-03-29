@@ -1,0 +1,33 @@
+authors:
+  Pierre Guillaumont:
+  Philippe Birnbaum:
+    href: "https://www.researchgate.net/profile/Philippe-Birnbaum"
+  Thomas Ibanez:
+    href: "https://www.researchgate.net/profile/Thomas-Ibanez"
+  Ghislain Vieilledent:
+    href: "https://ecology.ghislainv.fr"
+  CNRT:
+    href: "https://cnrt.nc"
+    html: "<img src='https://ecology.ghislainv.fr/gecevar/articles/logos/Logo_CNRT.png' height=24 style='height:24px;'>"
+  Cirad:
+    href: "https://www.cirad.fr"
+    html: "<img src='https://ecology.ghislainv.fr/gecevar/articles/logos/logo-cirad.svg' height=24 style='height:24px;'>"
+
+navbar:
+  structure:
+    left: [home, intro, reference]
+    right: [github]
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    intro:
+      text: Get started
+      href: articles/New_Caledonia.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/ghislainv/gecevar
+

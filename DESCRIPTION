@@ -1,0 +1,66 @@
+Package: jsdmnc
+Type: Package
+Title: Use JSDMs to derive forest community maps in New Caledonia
+Version: 0.1.0
+Authors@R: c(
+  person("Pierre", "Guillaumont", role=c("aut", "cre"),
+         email="pierre.guillaumont@gmail.com"),
+  person("Philippe", "Birnbaum", role=c("aut"),
+         email="philippe.birnbaum@cirad.fr",
+         comment=c(ORCID = "0000-0003-4830-5500")),
+  person("Thomas", "Ibanez", role=c("aut"),
+         email="thomas.ibanez@ird.fr",
+         comment=c(ORCID="0000-0002-3192-1721")),
+  person("Ghislain", "Vieilledent", role=c("aut"),
+         email="ghislain.vieilledent@cirad.fr",
+         comment=c(ORCID="0000-0002-1685-4997")),
+  person("CNRT", role=c("fnd")),
+  person("Cirad", role=c("cph","fnd")))
+Maintainer:  Ghislain Vieilledent <ghislain.vieilledent@cirad.fr>
+Description: Use Joint Species Distribution Models (through the use of the jSDM R package) to derive forest community maps in New Caledonia.
+URL: https://ecology.ghislainv.fr/JSDM-NC, https://github.com/ghislainv/JSDM-NC
+BugReports: https://github.com/ghislainv/JSDM-NC/issues
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ade4,
+    coda,
+    cowplot,
+    EMCluster,
+    factoextra,
+    FactoMineR,
+    ggplot2,
+    ggtern,
+    glue,
+    graphics,
+    grDevices,
+    grid,
+    gridExtra,
+    here,
+    jSDM,
+    matrixStats,
+    RColorBrewer,
+    readr,
+    rgdal,
+    rgl,
+    rgrass,
+    rnaturalearth,
+    rnaturalearthdata,
+    rnaturalearthhires,
+    Rtsne,
+    sf,
+    shiny,
+    sp,
+    stars,
+    stats,
+    stringr,
+    terra,
+    terrainr,
+    tidyterra,
+    viridis
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.2.1
